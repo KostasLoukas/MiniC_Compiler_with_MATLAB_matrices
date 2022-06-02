@@ -9,7 +9,7 @@ where var is the name of the variable and 1 is its value)
 and the operations of addition, subtraction and multiplication
 of these variables with arrays (in any order those may appear). 
 The operations between the numbers/variables that are supported are (with C++ symbolism):
-+, -, *, /,%, ++, -, &&, ||,!,>,> =, ==, <, <=,! =, &, |, ~, ^, << and >>.
++, -, *, /, %, ++, -, &&, ||, !, >, >=, ==, <, <=, !=, &, |, ~, ^, << and >>.
 
 To run this solution/project, you would need Visual Studio 2017 or higher, FlexBison installed on your C:\ drive and Graphviz.
 
