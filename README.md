@@ -12,3 +12,5 @@ The operations between the numbers/variables that are supported are (with C++ sy
 +, -, *, /,%, ++, -, &&, ||,!,>,> =, ==, <, <=,! =, &, |, ~, ^, << and >>.
 
 To run this solution/project, you would need Visual Studio 2017 or higher, FlexBison installed on your C:\ drive and Graphviz.
+
+The input.txt file is the input commands that the compiler will process (i.e. the MiniC and/or MATLAB expressions mentioned earlier).
