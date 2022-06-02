@@ -1,0 +1,90 @@
+﻿Build started 1/29/2021 15:37:12.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Lab_Exe3.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Lab_Exe3.tlog\Lab_Exe3.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Lab_Exe3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       BisonTarget:
+         Process "Grammar.y" bison file
+         cmd.exe /D /C "C:\Users\kosta\AppData\Local\Temp\tmpf0946a3c582247c79b4265e32b67f04c.cmd"
+         
+         start /B /WAIT /D "C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\" win_bison.exe --output="Grammar.tab.cpp" --defines="Grammar.tab.h"  "Grammar.y"
+         exit /b %errorlevel%
+       FlexTarget:
+         Process "grammar.l" flex file
+         cmd.exe /D /C "C:\Users\kosta\AppData\Local\Temp\tmp2ecda3fa90b540cbb7f5c3ae98975fed.cmd"
+         
+         start /B /WAIT /D "C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\" win_flex.exe --outfile="grammar.flex.cpp" --wincompat  "grammar.l"
+         exit /b %errorlevel%
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Visit_Eval.cpp Visit_GetArrayType.cpp grammar.flex.cpp Grammar.tab.cpp main.cpp STNode.cpp SymbolNodes.cpp SymbolTable.cpp
+         Visit_Eval.cpp
+         Visit_GetArrayType.cpp
+         grammar.flex.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(49,1): warning C4005: 'INT8_MIN': macro redefinition
+       C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\grammar.flex.cpp(59): message : see previous definition of 'INT8_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(50,1): warning C4005: 'INT16_MIN': macro redefinition
+       C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\grammar.flex.cpp(62): message : see previous definition of 'INT16_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(51,1): warning C4005: 'INT32_MIN': macro redefinition
+       C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\grammar.flex.cpp(65): message : see previous definition of 'INT32_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(53,1): warning C4005: 'INT8_MAX': macro redefinition
+       C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\grammar.flex.cpp(68): message : see previous definition of 'INT8_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(54,1): warning C4005: 'INT16_MAX': macro redefinition
+       C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\grammar.flex.cpp(71): message : see previous definition of 'INT16_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(55,1): warning C4005: 'INT32_MAX': macro redefinition
+       C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\grammar.flex.cpp(74): message : see previous definition of 'INT32_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(57,1): warning C4005: 'UINT8_MAX': macro redefinition
+       C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\grammar.flex.cpp(77): message : see previous definition of 'UINT8_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(58,1): warning C4005: 'UINT16_MAX': macro redefinition
+       C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\grammar.flex.cpp(80): message : see previous definition of 'UINT16_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(59,1): warning C4005: 'UINT32_MAX': macro redefinition
+       C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\grammar.flex.cpp(83): message : see previous definition of 'UINT32_MAX'
+         Grammar.tab.cpp
+     1>C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Grammar.tab.cpp(216,7): warning C4065: switch statement contains 'default' but no 'case' labels
+         main.cpp
+         STNode.cpp
+         SymbolNodes.cpp
+         SymbolTable.cpp
+         Generating Code...
+     1>C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Visit_Eval.cpp(235): warning C4715: 'CAssignment::Visit_Eval': not all control paths return a value
+     1>C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Visit_Eval.cpp(540): warning C4715: 'CAddition::Visit_Eval': not all control paths return a value
+     1>C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Visit_Eval.cpp(622): warning C4715: 'CSubtraction::Visit_Eval': not all control paths return a value
+     1>C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Visit_Eval.cpp(704): warning C4715: 'CMultiplication::Visit_Eval': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kosta\Desktop\MiniC with MatLab matrices\Debug\Lab_Exe3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\kosta\Desktop\MiniC with MatLab matrices\Debug\Lab_Exe3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kosta\Desktop\MiniC with MatLab matrices\Debug\Lab_Exe3.lib" /MACHINE:X86 Debug\Visit_Eval.obj
+         Debug\Visit_GetArrayType.obj
+         Debug\grammar.flex.obj
+         Debug\Grammar.tab.obj
+         Debug\main.obj
+         Debug\STNode.obj
+         Debug\SymbolNodes.obj
+         Debug\SymbolTable.obj
+         Lab_Exe3.vcxproj -> C:\Users\kosta\Desktop\MiniC with MatLab matrices\Debug\Lab_Exe3.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lab_Exe3.tlog\unsuccessfulbuild".
+         Touching "Debug\Lab_Exe3.tlog\Lab_Exe3.lastbuildstate".
+     1>Done Building Project "C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Lab_Exe3.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+       "C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Lab_Exe3.vcxproj" (Rebuild target) (1) ->
+       (ClCompile target) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(49,1): warning C4005: 'INT8_MIN': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(50,1): warning C4005: 'INT16_MIN': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(51,1): warning C4005: 'INT32_MIN': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(53,1): warning C4005: 'INT8_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(54,1): warning C4005: 'INT16_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(55,1): warning C4005: 'INT32_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(57,1): warning C4005: 'UINT8_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(58,1): warning C4005: 'UINT16_MAX': macro redefinition
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h(59,1): warning C4005: 'UINT32_MAX': macro redefinition
+         C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Grammar.tab.cpp(216,7): warning C4065: switch statement contains 'default' but no 'case' labels
+         C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Visit_Eval.cpp(235): warning C4715: 'CAssignment::Visit_Eval': not all control paths return a value
+         C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Visit_Eval.cpp(540): warning C4715: 'CAddition::Visit_Eval': not all control paths return a value
+         C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Visit_Eval.cpp(622): warning C4715: 'CSubtraction::Visit_Eval': not all control paths return a value
+         C:\Users\kosta\Desktop\MiniC with MatLab matrices\Lab_Exe3\Visit_Eval.cpp(704): warning C4715: 'CMultiplication::Visit_Eval': not all control paths return a value
+
+    14 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.03

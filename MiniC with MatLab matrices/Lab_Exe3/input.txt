@@ -1,0 +1,47 @@
+
+1+2*8/2-3;
+
+
+
+alpha=1;
+beta=2;
+
+A=[1,3-3+2*1,3];
+
+B=[4,5,6];
+
+
+
+A+B;
+alpha+A;
+B+beta;
+
+A-B;
+alpha-A;
+B-beta;
+
+A*B;
+alpha*A;
+B*beta;
+
+if (beta==2)
+{
+	if (alpha!=1)
+	{
+		1+1;
+	}
+	else
+	{
+		2+2;
+	}
+}
+
+
+i=0;
+
+while (i<5)
+{
+	i=i+1;
+
+	~1+5*7;
+}
