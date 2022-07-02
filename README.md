@@ -1,4 +1,4 @@
-# MiniC Compiler with MATLAB matrices
+# MiniC Compiler with MATLAB matrices (Flex/Bison)
 This compiler generates the syntax tree for MiniC inputs as well as MATLAB's matrices (according to its syntax).
 It also implements MiniC parts (if-else, while and break structures) and
 mathematical operations of the tables from the MATLAB tool. The tables are declared as is (e.g.
